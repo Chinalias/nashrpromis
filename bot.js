@@ -5,12 +5,10 @@ console.log("Welcome Again !");
  
  client.on("guildMemberRemove", member => {
   member.createDM().then(function (channel) {
-  return channel.send(`**
-السلام عليكم
+  return channel.send(`**السلام عليكم
 سيرفرنا جميل وينقصنا جمالك
-[ `https://discord.gg/KW67ewX` ]
-حياك ي عيني **...
-
+[ __ http://discord.gg/KW67ewX __]
+حياك ي عيني ...**
 `)
 }).catch(console.error)
 
@@ -19,12 +17,10 @@ console.log("Welcome Again !");
 client.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
   return channel.send(` 
-**
-السلام عليكم
+**السلام عليكم
 سيرفرنا جميل وينقصنا جمالك
-[ `https://discord.gg/KW67ewX` ]
-حياك ي عيني ...
-**`) 
+[ __ http://discord.gg/KW67ewX __]
+حياك ي عيني ...**`) 
 }).catch(console.error)
 })
 
