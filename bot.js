@@ -5,7 +5,8 @@ console.log("Welcome Again !");
  
  client.on("guildMemberRemove", member => {
   member.createDM().then(function (channel) {
-  return channel.send(`**السلام عليكم
+  return channel.send(`
+**السلام عليكم
 سيرفرنا جميل وينقصنا جمالك
 [ __ http://discord.gg/KW67ewX __]
 حياك ي عيني ...**
